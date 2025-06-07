@@ -4,7 +4,7 @@ menu = """
 [s] Sacar
 [e] Extrato
 
-=> """
+"""
 
 saldo = 0
 extrato = ""
@@ -56,7 +56,7 @@ while True:
         print("\nEXTRATO")
         print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f"\nSaldo: R$ {saldo:.2f}")
-        print("==========================================")
+        print("=" * 50)
 
         break
 
